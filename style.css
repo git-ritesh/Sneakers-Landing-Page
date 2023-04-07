@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d2dde3;
+}
+nav {
+  display: flex;
+}
+
+.nav-list {
+  font-size: 12px;
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 1.25em;
+}
+
+.nav-list-item {
+  padding: 1em 3em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-name {
+  width: 20%;
+  text-align: center;
+  padding: 1.25em;
+  color: white;
+  margin-right: auto;
+
+}
+
+.heading-span {
+  font-weight: 400;
+}
+
+/* Black backgrounds */
+.nav-name, .heading-span {
+  background-color: #1e2223;
+}
+
+/* Main Content  */
+main {
+  display: flex;
+}
+
+.main-txt {
+  margin: 5% 25em 0 5%;
+}
+
+/* sport name */
+.extra-large-txt, .large-txt  {
+  font-family: 'Antonio', sans-serif;
+  color: #fe2857;
+}
+
+.extra-large-txt {
+  font-size: 10em;
+  margin-bottom: 10px;
+}
+.large-txt {
+  font-size: 8rem;
+}
+
+
+
+.slogan-txt {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* Get Started Button */
+.get-started {
+  border: none;
+  padding: 10px 40px;
+  background-color: #1e2223;
+  color: #d2dde3;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  cursor:pointer;
+}
+/* Image Properties */
+.sneaker-img {
+  width: 40%;
+  padding:4%;
+  margin-top: -30px;
+  margin-right: 100px;
+}
+
+.footer-nav {
+  bottom: 0;
+  position: absolute;
+
+}
+
+.logo-fb, .logo-ig, .logo-tt {
+  padding: 0.4em;
+  width: 1.3em;
+  height: 1.3em;
+  color: #d2dde3;
+  background-color: #1e2223;
+}
+
+.footer-list-item {
+  background-color: #1e2223;
+  padding: 6px 12px;
+}
+/* Goto Bottom button */
+.arrow-btn {
+  padding: 1em 1em 0.5em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #1e2223;
+  border: none;
+}
+
+.arrow {
+  color: #d2dde3;
+  width: 2.3em;
+  height: 2.3em;
+}
