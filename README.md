@@ -1,6 +1,6 @@
 # Sneaker Landing Page
 
-[Click Here](https://git-ritesh.github.io/Sneakers-Landing-Page/) too see the WebPage Live.
+[Click Here!](https://git-ritesh.github.io/Sneakers-Landing-Page/) too see the WebPage Live.
 
 #### WebPage Preview Image
 
